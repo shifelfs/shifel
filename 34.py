@@ -1,5 +1,5 @@
 s=list(input())
-count=0
+count=1
 for i in s:
 	if(i=='.'):
 		count=count+1
