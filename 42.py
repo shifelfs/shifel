@@ -1,4 +1,4 @@
-s1,s2=map(int,input().split())
+s1,s2=map(str,input().split())
 c1=0
 c2=0
 for i in s1:
