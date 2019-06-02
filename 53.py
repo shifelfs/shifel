@@ -1,5 +1,7 @@
-a=int(input())
+n=int(input())
 sum=0
-for i in a:
-	sum=sum+i
+while(n>0):
+    dig=n%10
+    sum=sum+dig
+    n=n//10
 print(sum)
