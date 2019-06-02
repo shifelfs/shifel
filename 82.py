@@ -1,2 +1,2 @@
 l,b=map(float,input().split())
-print(l*b)
+print(format(l*b,'.5f'))
