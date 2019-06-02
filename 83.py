@@ -1,5 +1,7 @@
-a,b,c=list(map(input().split()))
-if b==%:
-	print(a%c)
+a,b,c=input().split()
+a=int(a)
+c=int(c)
+if b=='%':
+	print(int(a%c))
 else:
-	print(a/c)
+	print(int(a/c))
