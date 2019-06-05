@@ -1,12 +1,25 @@
-q=int(input())
-li=[]
-for i in range(0,q):
-    i=input()
-    li.append(i)
-li1=[]
-for i in zip(*li):
-    if i.count(i[0])==len(i):
-        li1.append(i[0])
-    else:
-        break
-print(''.join(l1))
+def findstem(arr): 
+	n = len(arr) 
+	s = arr[0] 
+	l = len(s) 
+	res = "" 
+	for i in range( l) : 
+		for j in range( i + 1, l + 1) : 
+			stem = s[i:j] 
+			k = 1
+			for k in range(1, n): 
+				if stem not in arr[k]: 
+					break
+			if (k + 1 == n and len(res) < len(stem)): 
+				res = stem 
+
+	return res 
+if __name__ == "__main__": 
+	
+	arr = []
+	num=int(input())
+	for i in range(num):
+	    string=input()
+	    arr.append(string)
+	stems = findstem(arr) 
+	print(stems) 
