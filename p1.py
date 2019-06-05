@@ -1,4 +1,4 @@
-def findstem(arr): 
+def fstem(arr): 
 	n = len(arr) 
 	s = arr[0] 
 	l = len(s) 
@@ -21,5 +21,5 @@ if __name__ == "__main__":
 	for i in range(num):
 	    string=input()
 	    arr.append(string)
-	stems = findstem(arr) 
+	stems = fstem(arr) 
 	print(stems) 
