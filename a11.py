@@ -1,9 +1,5 @@
-a=str(input())
-
-if a=='Saturday' or a=='Sunday':
-
-	print('yes')
-
+r=str(input())
+if(r=="Monday" or r=="Tuesday" or r=="Wednesday" or r=="Thursday" or r=="Friday"):
+   print("no")
 else:
-
-	print('no')
+   print("yes")
