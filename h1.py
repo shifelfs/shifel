@@ -11,4 +11,5 @@ else:
 			a.append(l[i])
 		else:
 			b.append(l[i])
-print (*b)
+c=set(b)
+print (*c)
